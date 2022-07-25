@@ -1,0 +1,185 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - yup
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: fun_facts
+  examples: |
+    - I would like some fun facts
+    - fun facts
+    - tell me a fun fact
+    - teach me something new
+    - fun fact
+
+- intent: sorting_waste
+  examples: |
+    - I would like to learn how to sort waste
+    - sorting waste
+    - sort waste
+    - sort trash
+    - sorting trash
+    - help me sort waste
+
+- intent: landfill_item
+  examples: |
+    - straws
+    - masks
+    - disposable gloves
+    - chip bags
+    - ziplock bags
+    - plastic bags
+    - wrapper
+    - candy wrapper
+    - plastic wrapper
+    - tissues
+    - broken glass
+    - diapers
+    - styrofoam
+    - toothpaste tube
+    - foam
+    - cup noodles
+    - kitchen grease
+    - dirty containers
+    - plastic utensils
+    - cat litter
+    - dog poop
+    - toothbrush
+    - black plastic
+    - ribbon
+    - glitter
+
+- intent: recyclable_item
+  examples: |
+    - cardboard
+    - milk cartons
+    - glass bottles
+    - glass jars
+    - tinfoil
+    - plastic water bottles
+    - black plastic takeout containers
+    - paper
+    - cereal boxes
+    - paper bags
+    - newspaper
+    - scrap metal
+    - plastic container
+    - plastic bottles
+    - cans
+    - posters
+    - cardboard box
+
+- intent: compostable_item
+  examples: |
+    - food scraps
+    - food waste
+    - vegetables
+    - fruits
+    - banana
+    - banana peel
+    - apple
+    - apple core
+    - rice
+    - paper bag
+    - leftovers
+    - compostable items
+    - tea bags
+    - flowers
+    - coffee grounds
+    - used napkins
+    - soiled material
+    - twine
+    - sticks
+    - leaves
+    - untreated wood
+    - hair
+    - nails
+    

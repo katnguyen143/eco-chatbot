@@ -1,0 +1,67 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+- fun_facts:
+    use_entities: true
+- sorting_waste:
+    use_entities: true
+- landfill_item:
+    use_entities: true
+- recyclable_item:
+    use_entities: true
+- compostable_item:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_fun_fact:
+  - text: In 2018, the average American produced 4.9 pounds of trash daily. (EPA)
+  - text: Animal agriculture releases massive amounts of carbon and 44% of global methane production. (Climate Nexus)
+  - text: The fashion industry is the second-biggest consumer of water and is responsible for 8-10% of global carbon emissions (UN Environment, 2019)
+  - text: Three out of five fast fashion items end up in a landfill within a year (Clean Clothes Campaign, 2019)
+  - text: The global energy consumed in 1800 was 5,653 TWh (trillion watt hours). The global energy consumed in 2019 was 158,839 TWh (https://ourworldindata.org/energy)
+  - text: 25% of the carbon we put into our atmosphere is absorbed in the ocean. While this may seem comforting given how desperately we want to remove carbon from our atmosphere, ocean acidification is catastrophic. (Science On a Sphere, NOAA)
+  - text: Various species of bees and butterflies pollinate 75% of flowering plants and nearly 75% of crops. (https://www.fws.gov/pollinators/)
+  - text: If we stopped burning fossil fuels today, temperatures would rise for at least 10 years, then would level off. (https://earthobservatory.nasa.gov/blogs/climateqa/would-gw-stop-with-greenhouse-gases/)
+  utter_ask_about_waste:
+  - text: Okay! Which trash item are you curious about?
+  utter_landfill:
+  - text: This item should be discarded in the landfill.
+  utter_recyclable:
+  - text: This item is recyclable.
+  utter_compostable:
+  - text: This item is compostable.
+actions: []
+forms: {}
+e2e_actions: []
